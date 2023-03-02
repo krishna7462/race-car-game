@@ -1,0 +1,65 @@
+*{
+   overflow: hidden;
+    margin-bottom: 0;
+}
+.score{
+    width:100%;
+    background-color: black;
+    height : 30px;
+    color: aliceblue;
+    text-align: center;
+    font-family:Georgia;
+}
+
+.start{
+    margin-top: 10px;
+    width:50%;
+    background-color: red;
+    color:white;
+    height:fit-content;
+    padding: 5px;
+    position:absolute;
+    left:25%;
+    text-align: center;
+    font-size: 10px;
+    z-index: 1;
+}
+.hide{
+    display:none;
+}
+
+.road{
+    width:40%;
+    background-color: black;
+    height:92vh;
+    position:relative;
+    margin:auto;
+}
+.car{
+    background-image: url(./car-image.webp);
+    background-size:contain;
+    width:30px;
+    height: 60px;
+    position:absolute;
+    bottom: 0;
+    z-index:1;
+}
+.enemy{
+    background-image: url(./blue-top-car-png-21.png);
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    background-size: contain;
+    height : 60px;
+    width:30px;
+    position:absolute;
+}
+.lines{
+    background-color: aliceblue;
+    height:50px;
+    width: 7px;
+    position: absolute;
+    left:46.67%;
+}
+
+
+
